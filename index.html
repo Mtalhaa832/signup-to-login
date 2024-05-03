@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="signup">
+    <h1 id="h1">signup form</h1>
+    <div id="butn">
+      <button id="signupbtn">signup</button>
+      <button id="loginbtn">login </button>
+    </div>
+    <form id="form">
+    <br><input type="text" placeholder="name:" class="int" id="userName",class="inpt"><br>
+    <br><input type="email" placeholder="email:" class="int" id="email"><br>
+    <br><input type="password" placeholder=" password:" class="int" id="password">
+    <input type="password" placeholder="confirm password:" class="int" id="c-password"><br>
+    <input type="button" value="signup" id="signupbutton"><br>
+    <p id="signuplink">already have account?</p> <a href="#" id="loginlink">login</a>
+  </div>
+  <!-- <div id="login">
+    <h1>login</h1>
+    
+      <input type="text" placeholder=" userName  " class="inp"><br>
+      <input type="password" placeholder="password" class="inp"><br>
+    <button id="loginbutton">login</button>
+    <p id="loginlink"><a href="#">regester your account?</a></p>
+  </div></form> -->
+
+
+  <script>
+    let h1 = document.getElementById("h1")
+    let signup = document.getElementById("signup");
+    let userName = document.getElementById("userName");
+    let email = document.getElementById("email");
+    let password = document.getElementById("c-password");
+    let signupbtn = document.getElementById("signupbtn");
+    let loginbtn = document.getElementById("loginbtn");
+    let int =document.getElementsByClassName("int");
+    let signupbutton = document.getElementById("signupbutton");
+    let signuplink =document.getElementById("signuplink");
+    let loginlink = document.getElementById("loginlink");
+    //    LOGIN LOGIN LOGIN LOGIN //
+    let login =document.getElementById("login");
+    let inp =document.getElementsByClassName("inp");
+    let loginbutton = document.getElementById("loginbutton");
+    let link = document.getElementById("link");
+    loginbtn.addEventListener("click",function(){
+      loginbtn.style.background =' rgb(34, 34, 103)';
+      signupbtn.style.background ='white';
+      
+      h1.innerHTML="login form";
+      userName.style.height = "0";
+      password.style.height = "0";
+      userName.style.width = "0";
+      password.style.width = "0";
+      signupbutton.value = "login";
+      signuplink.innerHTML = "regester your account?";
+      loginlink.innerText = "signup";
+
+
+    });
+     //    LOGIN onClick LOGIN onClick LOGIN onClick LOGIN onClick //
+     signupbtn.addEventListener("click",function(){
+      signupbtn.style.background =' rgb(34, 34, 103)';
+      loginbtn.style.background ='white'
+    
+      h1.innerHTML="signup form";
+      userName.style.height = "30px";
+      password.style.height = "30px";
+      userName.style.width = "310px";
+      password.style.width = "310px";
+      signupbutton.value = "signup";
+      signuplink.innerHTML = "already have account?";
+      loginlink.innerText = "signup";
+
+    });
+  </script>
+</body>
+
+</html>

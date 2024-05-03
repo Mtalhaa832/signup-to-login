@@ -1,0 +1,140 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+button{
+    color: black;
+}
+#signup{
+    width: 350px;
+    height: 500px;
+    margin-left: 500px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-transform: capitalize;
+font-size: 20px;
+padding-left: 20px;
+
+box-shadow: 12px 12px 19px rgb(243, 218, 171);
+}
+#signupbtn{
+    text-transform: capitalize;
+}
+#loginbtn{
+    text-transform: capitalize;
+}
+.int{
+    width: 310px;
+    height: 30px;
+    margin: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+ 
+}
+
+a{
+    color:rgb(10, 7, 7);
+    text-decoration: none;
+
+}
+#signupbutton{
+    width: 310px;
+    height: 30px;
+    margin: 7px;
+    font-size: 15px;
+    text-transform: capitalize;
+ border-radius: 20px;
+ background-color: rgb(34, 34, 103);
+ color: beige;
+ cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+#login{
+    width: 350px;
+    height: 500px;
+    margin-left: 500px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-transform: capitalize;
+font-size: 20px;
+padding-left: 20px;
+display:block;
+box-shadow: 12px 12px 19px rgb(243, 218, 171);
+/* position: absolute; */
+/* top: 0%; */
+
+}
+
+.inp{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+   font-size: 15px;
+   text-transform: capitalize;
+  
+}
+#loginbutton{
+    width: 150px;
+    height: 40px;border-radius: 10px;
+    font-size: 20px;
+    margin: 40px;
+    float: right;
+    cursor: pointer;
+}
+#signupbtn{
+    width: 150px;
+    height: 40px;border-radius: 10px;
+    font-size: 20px;
+margin-top:15px ;
+padding: 0%;
+   background-color: white;
+   border-right: 0cap;
+   cursor: pointer;
+}
+#loginbtn{
+    width: 150px;
+    height: 40px;border-radius: 10px;
+    font-size: 20px;
+margin-top:15px ;
+padding: 0%;
+   background-color: white;
+   border-left: 0cap;
+color: black;
+   cursor: pointer;
+}
+#attendence{
+    width: 140px;
+    height: 40px;
+    margin: 20px;
+    text-transform: capitalize;
+    background-color: blueviolet;
+    cursor: pointer;
+    color: aliceblue;
+}
+#leave{
+    width: 140px;
+    height: 40px;
+    margin: 20px;
+    background-color: brown;
+    cursor: pointer;
+    color: aliceblue;
+}
+#submit{
+    width: 140px;
+    height: 40px;
+    margin: 20px;
+    text-transform: capitalize;
+    background-color:rgb(130, 88, 9);
+    cursor: pointer;
+    color: aliceblue;
+    margin-left: 190px;
+}
+
+.active{
+    background-color: blue;
+}
